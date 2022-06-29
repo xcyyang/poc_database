@@ -1,0 +1,14 @@
+# The description and helper of this exploit
+description: "This exploit is a POC for attack to CREAM Fiance on Oct 27, 2021 01:54:10 PM +UTC. The hacker used flash loan to raise the price of yUSD and borrowed more assets than the attacker collateralized in Cream Finance. The hacker finally gained more than $119M worth of assets as profit of the exploit. Related Link: https://github.com/blocksecteam/defi_poc/tree/main/CREAM_ORACLE"
+# The interfaces required exploit this exploit
+interfaces:
+# The address requird by this exploit
+address:
+# Other parameters for this exploit
+parameters:
+# The url and blockNumber of archive node
+networks:
+  url: "https://speedy-nodes-nyc.moralis.io/TOKEN/eth/mainnet/archive"
+  blockNumber: '13499797'
+  # The url of JSON-RPC
+  JSONRPC: "http://127.0.0.1:8545"
